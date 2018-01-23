@@ -14,7 +14,7 @@
 <link rel="canonical" href="https://www.w3.org/WAI/eval/preliminary">
 <meta name="twitter:url" property="og:url" content="https://www.w3.org/WAI/eval/preliminary">
 <meta name="twitter:description" property="og:description" content="This page helps you assess the accessibility of a web page. With these simple steps, you can get an idea if accessibility is addressed in even the most basic way.">
-<meta name="DCTERMS.subject" content="Page Title" />
+<meta name="DCTERMS.subject" content="ページタイトル" />
 <meta name="DCTERMS.subject" content="Alt Attributes" />
 <meta name="DCTERMS.subject" content="Headings" />
 <meta name="DCTERMS.subject" content="Contrast ratio" />
@@ -216,7 +216,7 @@ figcaption {
   <p class="listintro">このチェックリストでは、アクセシビリティについて、完璧なチェックをすることより小さな範囲を素早く簡単に確認できることを優先して作られています。あなたのウェブページがこのチェックリストを通過しても、まだ重大な障壁が残っているかもしれません。完璧な調査をするのであれば、包括的なアクセシビリティ評価をする必要があります。</p>
   <p><a id="toc"></a>このページでは以下の側面のチェックが行えます。さらに、<span class="ptoc"><a href="#next">次にやるべきこと</a></span>と<a href="#evalresources">さらなるアクセシビリティ評価のための情報</a>へのリンクもあります</p>
   <ul class="toc listafterpul listtight">
-    <li><a href="#title">Page title</a></li>
+    <li><a href="#title">ページタイトル</a></li>
     <li><a href="#images">Image text alternatives (&quot;alt text&quot;)</a> (pictures, illustrations, charts, etc.)</li>
     <li><em>Text:</em>
       <ul>
@@ -303,40 +303,40 @@ figcaption {
       <p>For such instructions, Windows users press the Ctrl key, and Mac users press the cmd key.</p>
     </div>
     <p class="totop"><a href="#toc">back to page contents</a></p>
-    <h2 id="title">Page title</h2>
-    <p class="listintro">Page titles are:</p>
+    <h2 id="title">ページタイトル</h2>
+    <p class="listintro">ページタイトルは、以下のようなものです</p>
     <ul class="listafterpul">
-      <li>shown in the window title bar in some browsers</li>
-      <li>shown in browsers' tabs when there are multiple web pages open</li>
-      <li>shown in search engine results</li>
-      <li>used for browser bookmarks/favorites</li>
-      <li>read by  screen readers</li>
+      <li>いくつかのブラウザでウィンドウのタイトルバーに表示されます</li>
+      <li>複数のページを開いているときにブラウザーのタブに表示されます</li>
+      <li>サーチエンジンの結果表示に使われます</li>
+      <li>ブラウザーの「ブックマーク」「お気に入り」に使われます</li>
+      <li>スクリーンリーダーに読み上げられます</li>
     </ul>
-    <p>(In the web page <a href="#markup" class="termref">markup</a> they are the &lt;title&gt; within the &lt;head&gt;.)</p>
-    <p>The image below shows the page title &quot;Easy Checks - A First Review of Web Accessibility&quot; in the title bar, and the titles of 4 pages in the tabs. Note that in the tabs,  only the first part of the page title is shown.</p>
+    <p>（ウェブページの<a href="#markup" class="termref">マークアップ</a>では、 &lt;head&gt; の中の &lt;title&gt; の中に記述されます）</p>
+    <p>下の画像では、 &quot;Easy Checks - A First Review of Web Accessibility&quot; というページタイトルがタイトルバーに表示され、4つのページのタイトルがタブに表示されています。タブに表示されているタイトルは、最初の部分だけが見えるようになっています。</p>
     <figure> <img src="images/page-title.png" alt="" width="674" height="100"/>
-      <figcaption class="figcaption">Figure: Firefox browser with full title  in the title bar and partial titles in the tabs.</figcaption>
+      <figcaption class="figcaption">図: Firefoxブラウザーで、タイトルバーにはタイトルの全文が、タブにはタイトルが部分的に表示されている。</figcaption>
       <!--figure--> 
     </figure>
-    <p>Good page titles are particularly important for  orientation — to help people know where they are and move between pages open in their browser. The first thing screen readers say when the user goes to a different web page is the page title.</p>
-    <h3 class="whathead">What to do:</h3>
+    <p>よいページタイトルは、ユーザーがいまどこにいるのかや、ブラウザの上でページとページのあいだを移動したことを理解する上で重要です。スクリーンリーダーは、ユーザーが違うページに移動したときに最初にページタイトルを読み上げます。</p>
+    <h3 class="whathead">やるべきこと:</h3>
     <ul class="listwithpul">
-      <li>Look at the page&#39;s title (or with a screen reader, listen to it).</li>
-      <li>Look at titles of other pages within the website.</li>
+      <li>ページタイトルを見ます（あるいは、スクリーンリーダーを使っているのであれば聞きます）。</li>
+      <li>ウェブサイト内の他のページを見ます。</li>
     </ul>
-    <h3 class="whathead">What to check for:</h3>
+    <h3 class="whathead">チェックすること:</h3>
     <ul class="listwithpul">
-      <li>Check that there is a title that adequately and briefly describes the content of the page.</li>
-      <li>Check that the title is different from other pages on the website, and adequately distinguishes the page from other web pages.</li>
+      <li>十分で簡潔にページの内容を説明するタイトルになっていること。</li>
+      <li>ウェブサイト内の他のページと違っていて十分に区別できるタイトルになっていること。</li>
     </ul>
     <h3 class="f_panelHead"><a id="titletips"></a>Tips</h3>
     <div>
       <ul class="listwithpul listtight">
-        <li>There is flexibility on what makes a good page title.</li>
-        <li>Best practice is for titles to be &quot;front-loaded&quot; with the important and unique identifying information first.<br />
-          For example:
+        <li>よいページタイトルの付けかたには柔軟性がありますThere is flexibility on what makes a good page title.</li>
+        <li>ベストプラクティスは、重要でユニークな情報を最初に付けて &quot;front-loaded&quot; にすることです<br />
+          たとえば:
           <ul class="listwithpul">
-            <li>Poor titles:
+            <li>良くないタイトルの例:
               <ul class="listwithpul">
                 <li>Welcome to home page of  Acme Web Solutions, Inc.</li>
                 <li>Acme Web Solutions, Inc. | About Us</li>
@@ -344,7 +344,7 @@ figcaption {
                 <li>Acme Web Solutions, Inc. | History</li>
               </ul>
             </li>
-            <li>Better page titles:
+            <li>良いタイトルの例:
               <ul class="listwithpul">
                 <li>Acme Web Solutions home page</li>
                 <li>About Acme Web Solutions</li>
@@ -356,30 +356,31 @@ figcaption {
         </li>
       </ul>
     </div>
-    <h3>Page title checks</h3>
-    <h4 class="f_panelHead listintro">To check page title <em>with different browsers</em></h4>
+    <h3>ページタイトルのチェック</h3>
+    <h4 class="f_panelHead listintro"><em>Webブラウザーで</em>ページタイトルをチェックする</h4>
     <div class="steps">
       <ul>
-        <li>If you have a  browser that displays the page title in the window title bar by default, use that browser. Some versions of Firefox, Safari, Opera, and older versions of IE show the title by default.
+        <li>標準でページタイトルをウィンドウのタイトルバーに表示するブラウザがある場合は、そのブラウザを使いましょう。いくつかのバージョンの Firefox, Safar, Opera, 古いバージョンの IE は標準でタイトルを表示します。
+          If you have a  browser that displays the page title in the window title bar by default, use that browser. Some versions of Firefox, Safari, Opera, and older versions of IE show the title by default.
           <ul>
-            <li>Firefox on Windows: If the title bar isn't displayed you might be able to display it by pressing: Alt+V, T, M (or right-mouse click in the empty area after the tab and select Menu Bar).</li>
+            <li>Windows 版 Firefox: タイトルバーが表示されない場合は次のキーを押して表示させられます: Alt+V, T, M (またはタブの後ろの空白の領域を右クリックしてメニューバーから選択）</li>
           </ul>
         </li>
-        <li>If your browser doesn't have a title bar, you can do try one of these:
+        <li>タイトルバーがない場合、以下のどれかを試してください: 
           <ul>
-            <li>With your mouse, hover over the browser tab to see the full page title, like this:<br />
+            <li>マウスポインタをタブの上に載せる、こういう感じです:<br />
               <figure>
                 <div class="figcontent"><img src="images/page-title-tab-popup.png" alt="" width="674" height="110" /></div>
-                <figcaption class="figcaption">Figure: Page title in popup, displayed with mouse hover over tab.</figcaption>
+                <figcaption class="figcaption">図: マウスポインタをタブに載せると表示される、ページタイトルのポップアップ。</figcaption>
               </figure>
               <!--figure--> 
             </li>
-            <li>Display the Add Bookmark dialog box, which includes the title. In some Windows browsers, press Ctrl+D. In some Mac browsers, press cmd+D to get the Add Bookmark dialog box.</li>
+            <li>ブックマーク追加のダイアログにはタイトルが表示されます。Windows のいくつかのブラウザでは Ctrl+D で表示されます。 Mac のいくつかのブラウザでは cmd+D で表示されます。</li>
           </ul>
         </li>
       </ul>
     </div>
-    <h4 class="f_panelHead listintro">To check page title <em>with IE WAT</em></h4>
+    <h4 class="f_panelHead listintro"><em>with IE WAT</em></h4>
     <div class="steps">
       <p><em>(Some versions of IE have the title bar so you can just look there, you don't need to do the steps below.)</em></p>
       <ol class="listwithpul">
@@ -389,7 +390,7 @@ figcaption {
           The page title is shown after &quot;Title:&quot;.</li>
       </ol>
     </div>
-    <h3 class="f_panelHead">Learn more about page titles</h3>
+    <h3 class="f_panelHead">ページタイトルについてもっと知る</h3>
     <div>
       <ul class="listwithpul">
         <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG 2.0 (Level A)</li>
